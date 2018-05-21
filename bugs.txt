@@ -1,0 +1,13 @@
+程序功能：
+使用tab页显示数据库各个表
+在各表上进行增删改查操作
+查询操作根据name字段进行模糊搜索
+点击表头可按列排序
+
+
+搜索功能尚未实现。（已实现按姓名模糊搜索）
+RtlWerpReportException failed with status code :-1073741823。（有指针对象未初始化导致）。
+connectDb()放在initUI()后不显示表数据。（初始化中用到数据库表）
+搜索框首次输入无无效。（tabNum没有初始化，其初始值2010328276）
+debug/sqlwidget_resource_res.o Error 1(ico是自己改的后缀，需要转换为可看缩略图的ico)
+
